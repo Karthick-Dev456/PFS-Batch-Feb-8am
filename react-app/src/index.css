@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
