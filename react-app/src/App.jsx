@@ -9,6 +9,9 @@ import Data from "./components/Data"
 import Student from "./components/Student"
 import StudentUpdate from "./components/StudentUpdate"
 import Posts from "./components/Posts"
+import PostUpdate from "./components/PostUpdate"
+import PostView from "./components/PostView"
+import Reference from "./components/Reference"
 
 const App = () => {
 
@@ -25,6 +28,11 @@ const App = () => {
                 <Route path="/student" element={<Student />} />
                 <Route path="/student/update/:id" element={<StudentUpdate />} />
                 <Route path="/posts" element={<Posts />} />
+                <Route path="/post/update/:id" element={<PostUpdate />} />
+                <Route path="/post/view/:id" element={<PostView />} />
+                <Route path="/post/view/:id" element={<PostView />} />
+                <Route path="/reference" element={<Reference />} />
+
             </Routes>
         </div>
     )

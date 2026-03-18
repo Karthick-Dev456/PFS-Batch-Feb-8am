@@ -23,6 +23,9 @@ const Navbar = () => {
                 <li>
                     <NavLink to="/posts">Posts</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/reference">Reference</NavLink>
+                </li>
             </ul>
         </nav>
     )
